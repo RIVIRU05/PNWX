@@ -1,0 +1,45 @@
+.gradient-background{
+    background: linear-gradient(300deg, #33b0d9, #3479be, #72ef91);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  
+}
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+.navbar-brand{
+    margin-left: 1rem;
+}
+.lol{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width:50px;
+    height: 50px;
+    background-color: #33b0d9;
+    border-radius: 50%;
+    border:black;
+    border-style: dotted;
+    color: white;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    font-size: 15px;
+    line-height: 50px;
+    border-color: black
+    ;
+  }
+  .screenshot-card {
+    width: 80%; 
+    height: 100%; 
+    border-radius: 21px 21px 0 0;
+ }
+  
